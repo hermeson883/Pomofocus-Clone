@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    font-family: "ArialRounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background:#d95550;
+}
+
+main{
+    background: white !important
+}
+
+.center{
+    padding: 0px, 12px;
+    max-width: 620px;
+    margin: auto;
+    
+}
+
+.contain{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center ;
+    height: 60px;
+    background-color: inherit;
+}
+
+h1{
+    font-size: 20px;
+    padding: 10px, 0;
+}
+
+img{
+    width:20px;
+    margin-right: 4px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+}
+
+
+.option{
+    display: flex;
+}
+
+.config{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    background: none rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    margin-left: 10px;
+    font-size: 16px;
+    padding: 8px 12px;
+    min-width: 70px;
+    border: none;
+    color: white !important;
+    transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.config:hover{
+    background: rgba(255, 255, 255, 0.3)
+}
+
+.button{
+    border: none;
+}
+
+.line{
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: black;
+    height: 1px
+}
+
+.main{
+    text-align: center;
+}
+
+.Centralize{
+    max-width: 620px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+div.flex{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 620px;
+
+}
+
+.selectors{
+    border: none;
+    padding: 1px 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    opacity: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:16px;
+    height: 28px;
+}
+
+#show{
+    background: none rgba(0, 0, 0, 0.15);
+}
+
+.timer{
+    font-size: 120px;
+    color: white;
+    width: inherit;
+    background: #e07672;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.start{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top:20px;
+    background: #e07672;
+}
+
+.player{
+    cursor: pointer;
+    width: 170px;
+    height: 55px;
+    border: none;
+    color:  rgb(217, 85, 80);
+    padding: 0 12px;
+    background: white;
+    transition: .2s ease-in-out;
+    font-size:22px;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: rgb(235 235 235) 0px 6px 0px;
+}
+
+.player:hover{
+    box-shadow: rgb(219, 245, 255) 7px 8px 0px;
+}
+
+.round{
+    opacity: 0.6;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 6px;
+
+}
+
+.focus-text{
+    color: white;
+    font-size: 18px;
+}
+
+.tasks-block{
+    max-width: 480px;
+    margin: 10px auto 42px;
+
+}
+
+.space-blocks{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    align-items: center;
+    padding-bottom: 10px
+}
+
+span{
+    color: white;
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+.more{
+    display: flex;
+    -webkit-box-align: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    background: none rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    margin-left: 10px;
+    min-width: auto;
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding:8px;
+}
+
+.more > img{
+    text-align: center;
+    background:#e0746f;
+    opacity: 0.9;
+    margin-right: 0;
+    font-size: 1px;   
+}
+
+.add-item{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    background: rgba(0, 0, 0, .1);
+    height: 60px;
+    align-items: center;
+    cursor: pointer;
+    opacity:0.8;
+    border: 2px dashed rgba(255, 255, 255, 0.4);
+    margin-top:15px;
+    border-radius: 10px;
+    transition: .2s ease-in-out 
+} 
+
+.add-item:hover{
+    background:rgba(0, 0, 0, .3);
+    border:2px dashed rgba(255, 255, 255, 0.3);
+}
+
+.add-item > img{
+    background: none;    
+}
+
+.new-task{
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    
+}
+
+section{
+    max-width: 620px;
+    margin: auto;
+}
+
+.details{
+    background: white
+}
+
+.link{
+    color:hsl(327, 20%, 52%);
+    background: white;
+    transition: .3s ease-in-out
+}
+
+.link:hover{
+    color: hsl(327, 80%, 65%);
+    opacity: .9
+}
+
+p.details{
+    padding-bottom: 20px;
+}
+
+#title, h1.details{
+    color: hsl(357, 50%, 22%);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+h1.details{
+    font-size: 34px;
+}
+
+li.details{
+    padding: 9px;
+}
+
+strong{
+    background: white;
+    color: hsl(357, 12%, 42%);
+    margin: 12px 0px;
+    line-height: 1.6rem;
+}
+.features{
+    background: white;
+}
+
+.features > ul {
+    background: white;
+    padding-left:9px; 
+}
+
+.features > ul > li{
+    margin-left: -1em;
+    margin-bottom: 2px;
+    background:white;
+    margin:12px;
+}
+
+.features li::before{
+    color: hsl(357, 74%, 67%);
+    content: '\2022';
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+.footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.top-information{
+    margin-bottom: 10px; 
+}
+
+.top-information a{
+    color: rgb(86,28,33);
+}
+
+.top-information a:hover{
+    transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    color: rgba(255,255,255,.8);
+}
+
+div.top-information a{
+    font-size: 24px;
+    margin: 0 4px;
+}
+
+div.icons{
+    font-size:28px;
+}
+
+.hover:hover{
+    transition: 0.2s ease-in-out;
+    color: #1178f2;
+}
+.hover2:hover{
+    transition: 0.2s ease-in-out;
+    color: #25abe1
+}
+
+.hover3:hover{
+    transition: 0.2s ease-in-out;
+    color: #161312
+}
+
+.creator a{
+    color: white
+}
+
+.footer__allrights{
+    font-size: 12px;
+    margin-top: 8px;
+    color: whitesmoke
+}

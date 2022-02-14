@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="timer.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="background">
+            <div class="center">
+                <div class="contain">
+                    <h1>
+                        <a href="https://pomofocus.io/app" >
+                            <img src="https://pomofocus.io/icons/icon-white.png" alt=""/>Pomofocus
+                        </a>
+                    </h1>
+                    <span class="option">
+                        <button class="button">
+                            <div class="config">Report</div>
+                        </button>
+                        <button class="button">
+                            <div class="config">Setting</div>
+                        </button>
+                        <button class="button">
+                            <div class="config">Login</div>
+                        </button>
+                    </span>
+                </div>
+                <div class="line"></div>
+                <div class="main">
+                    <div class="Centralize">
+                        <div class="box">
+                            <div class="flex">
+                                <button class="selectors" id="show">Pomodoro</button>
+            
+                                <button class="selectors">Long break</button>
+                                
+                                <button class="selectors">Short break</button>
+                            </div>
+                            <div id="timer-string" class="timer">00:00</div>
+                            <div class="start">
+                                <button color="(217 85 80)" class="player" onclick="click()">START</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="round">#1</div>
+                    <div class="focus-text">Time to focus!</div>
+                </div>    
+                <div  class="tasks-block">
+                    <div class="space-blocks">
+                        <span>Tasks</span>
+                        <div>
+                            <button class="more"> 
+                                <img src="	https://pomofocus.io/icons/threedots-white.png" alt="Option button for tasks">
+                            </button>
+                        </div>              
+                    </div>
+                    <div class="add-item">
+                        <img src="https://pomofocus.io/icons/plus-circle-white.png" alt="Add a new task">
+                        <div class="new-task">Add a new task</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="q">
+            <div class="details">
+                <h1 class="details"> An online Pomodoro Timer to boost your productivity</h1>
+                <h2 id="title" class="details">What is Pomofocus?</h2>
+                <p class="details">Pomofocus is a customizable pomodoro timer that works on desktop & mobile browser. The aim of this app is to help you focus on any task you are working on, such as study, writing, or coding. This app is inspired by <a class="link" href="https://francescocirillo.com/pages/pomodoro-technique">Pomodoro Technique</a> which is a time management method developed by Francesco Cirillo.</p>
+            </div>
+            <div class="details">
+                <h2 id="title" class="details">What is Pomodoro Technique?</h2>
+                <p class="details">The Pomodoro Technique is created by Francesco Cirillo for a more productive way to work and study. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Cirillo used as a university student. - <a class="link" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Wikipedia.</a></p>
+            </div>
+            <div class="details">
+                <h2 id="title" class="details">How to use the pomodoro Timer?</h2>
+                <ol>
+                    <li class="details">1. <strong>add a tasks</strong> to work on today</li>
+                    <li class="details">2. <strong>Set estimate pomodoros</strong> (1 = 25min of work) for each tasks</li>
+                    <li class="details">3. <strong>Select a task</strong> to work on</li>
+                    <li class="details">4. <strong>Start timer</strong> and focus on the task for 25 minutes</li>
+                    <li class="details">5. <strong>Take a break</strong> for 5 minutes when the alarm ring</li>
+                    <li class="details">6. <strong>Iterate</strong> 3-5 until you finish the tasks</li>
+                </ol>
+            </div>
+            <div class="features">
+                <h2 id="title" class="details">Features</h2>
+                <ul>
+                    <li><strong>Responsive design</strong> that works with desktop and mobile</li>
+                    <li><strong>Color transition</strong> to switch moods between work time and rest time</li>
+                    <li><strong>Audio notification</strong> at the end of a timer period</li>
+                    <li><strong>Customizable timer</strong> intervals to suit your preference</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="top-information">
+            <a href="">Home</a>
+            <a href="">Page</a>
+            <a href="">Creator</a>
+            <a href="">Github</a>
+        </div>
+        <div class="icons">
+            <a class="hover" href="https://www.facebook.com/pomofocus" target="_blank" rel="noopener">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+
+            <a class="hover2" href="https://twitter.com/pomofocus" target="_blank" rel="noopener">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+
+            <a class="hover3" href="https://github.com/hermeson883" target="_blank" rel="noopener">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+        </div>
+        <div class="creator">
+            <p>Made with LOVE by <a href="https://uzu.works">Yuya Uzu</a>
+            </p>
+        </div>
+
+        <div class="footer__allrights container">©Pomofocus 2021. All Rights Reserved.</div>
+        
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+
+</body>
+</html>
